@@ -1,0 +1,20 @@
+{
+  "name": "reason-app",
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors", "-open Belt"],
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": ["reason-react"],
+  "suffix": ".bs.js",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  }
+}
