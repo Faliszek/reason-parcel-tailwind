@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cyan: "#9cdbff"
+        "reason-red": "#db4d3f"
       }
     }
   },
