@@ -1,22 +1,21 @@
 {
-  "name": "tailwind-parcel",
+  "name": "reason-parcel-tailwind",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "bsb-js": "^1.1.7",
-    "tailwindcss": "^1.1.2"
-  },
-  "dependencies": {
-    "bs-platform": "^5.0.6",
-    "parcel-bundler": "^1.12.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "reason-react": "^0.7.0"
   },
+  "dependencies": {
+    "tailwindcss": "^1.2.0",
+    "bs-platform": "^7.1.1",
+    "parcel-bundler": "^1.12.3"
+  },
   "scripts": {
     "buckle:up": "bsb -make-world -w",
-    "start": "parcel index.html --port=3000",
-    "fresh:start": "rm -rf .cache && rm -rf dist && parcel index.html --port=3000"
+    "start": "parcel ./public/index.html --port=3000",
+    "fresh:start": "rm -rf .cache && rm -rf dist && parcel ./public/index.html --port=3000"
   }
 }
