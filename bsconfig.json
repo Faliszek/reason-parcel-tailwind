@@ -1,10 +1,8 @@
 {
-  "name": "reason-app",
+  "name": "reason-parcel-tailwind",
   "bsc-flags": ["-bs-no-version-header", "-bs-super-errors", "-open Belt"],
   "refmt": 3,
-  "reason": {
-    "react-jsx": 3
-  },
+  "reason": { "react-jsx": 3 },
   "sources": [
     {
       "dir": "src",
@@ -14,7 +12,7 @@
   "bs-dependencies": ["reason-react"],
   "suffix": ".bs.js",
   "package-specs": {
-    "module": "commonjs",
+    "module": "es6",
     "in-source": true
   }
 }
